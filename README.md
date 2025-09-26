@@ -113,6 +113,20 @@ python presentation/cli.py --temp 32.0 --humidity 40
 
 ## Testing Your Implementation
 
+### Setup
+```bash
+# 1) Create a virtual environment (optional)
+# Unix
+python -m venv .venv && source .venv/bin/activate
+
+# Windows: 
+python -m venv .venv
+.venv\Scripts\activate
+
+# 2) Install test dependency
+pip install -r requirements.txt
+```
+
 Run the tests to verify your implementation:
 
 ```bash
